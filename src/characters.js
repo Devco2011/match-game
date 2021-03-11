@@ -1,4 +1,4 @@
-export default function getLanguageCards() {
+export default function getCharacterCards() {
     return [
         {
             id: 1,
@@ -52,13 +52,13 @@ export default function getLanguageCards() {
         {
             id: 9,
             name: "Princess Celestia",
-            image: "PrincessCelestia.jpg",
+            image: "PrincessCelestia.png",
             foundMatch: false
         },
         {
             id: 10,
             name: "Princess Celestia",
-            image: "PrincessCelestia.jpg",
+            image: "PrincessCelestia.png",
             foundMatch: false
         },
         {
@@ -88,13 +88,13 @@ export default function getLanguageCards() {
         {
             id: 15,
             name: "Rainbow Dash",
-            image: "RainbowDash.jpeg",
+            image: "RainbowDash.png",
             foundMatch: false
         },
         {
             id: 16,
             name: "Rainbow Dash",
-            image: "RainbowDash.jpeg",
+            image: "RainbowDash.png",
             foundMatch: false
         },
         {
@@ -123,14 +123,14 @@ export default function getLanguageCards() {
         },
         {
             id: 21,
-            name: "Shining Armor",
-            image: "ShiningArmor.jpeg",
+            name: "Sweetie Bell",
+            image: "SweetieBell.png",
             foundMatch: false
         },
         {
             id: 22,
             name: "Shining Armor",
-            image: "ShiningArmor.jpeg",
+            image: "ShiningArmor.png",
             foundMatch: false
         },
         {
