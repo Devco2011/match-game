@@ -129,8 +129,8 @@ export default function getCharacterCards() {
         },
         {
             id: 22,
-            name: "Shining Armor",
-            image: "ShiningArmor.png",
+            name: "Sweetie Bell",
+            image: "SweetieBell.png",
             foundMatch: false
         },
         {
