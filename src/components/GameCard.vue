@@ -37,12 +37,12 @@ export default {
 
 <style scoped>
 img {
-  height: 90px;
+  height: 100px;
 }
 .card {
   background-color: transparent;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   perspective: 1000px;
   margin-top: 20px;
 }
