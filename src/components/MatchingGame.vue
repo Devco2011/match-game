@@ -12,6 +12,9 @@
         />
       </div>
     </div>
+    <button v-if="foundAllMatches" class="reset-btn" @click="reset">
+      Play Again
+    </button>
   </div>
 </template>
 
@@ -58,6 +61,9 @@ export default {
         }, 1500);
       }
     },
+    reset() {
+      window.location.reload();
+    },
     getMatchingCharacters(name) {
       return this.characters.filter((c) => c.name === name);
     },
@@ -72,7 +78,7 @@ export default {
 
 <style scoped>
 h1 {
-  color: #333;
+  color: #fff;
 }
 .game-board {
   display: flex;
@@ -82,5 +88,19 @@ h1 {
 }
 .cell {
   padding: 10px;
+}
+.reset-btn {
+  border: 3px solid rgb(218, 32, 193);
+  border-radius: 5px;
+  background: rgb(218, 32, 193);
+  color: rgb(250, 246, 249);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 3px 5px;
+  font-weight: bold;
 }
 </style>

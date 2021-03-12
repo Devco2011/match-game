@@ -4,11 +4,13 @@
       <div class="back-side">
         <img src="@/assets/images/star.png" alt="hidden card" />
       </div>
-      <img
-        :src="require(`@/assets/images/` + character.image)"
-        :alt="character.name"
-        :title="character.name"
-      />
+      <div class="character-side">
+        <img
+          :src="require(`@/assets/images/` + character.image)"
+          :alt="character.name"
+          :title="character.name"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -56,7 +58,7 @@ img {
   transform: rotateY(180deg);
 }
 .back-side,
-.language-side {
+.character-side {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -64,13 +66,13 @@ img {
   backface-visibility: hidden;
 }
 .back-side {
-  background-color: goldenrod;
+  background-color: transparent;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 60px;
 }
-.language-side {
-  background-color: goldenrod;
+.character-side {
+  background-color: transparent;
   color: black;
   transform: rotateY(180deg);
 }
